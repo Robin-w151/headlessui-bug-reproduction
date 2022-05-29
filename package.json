@@ -1,0 +1,30 @@
+{
+  "name": "vite-emotion-typescript",
+  "scripts": {
+    "start": "NODE_ENV=development vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@headlessui/react": "^1.6.3",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@emotion/babel-plugin-jsx-pragmatic": "^0.1.5",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
+    "@vitejs/plugin-react": "^1.3.2",
+    "tailwindcss": "3.0.24",
+    "twin.macro": "^3.0.0-rc.1",
+    "typescript": "4.7.2",
+    "vite": "^2.9.9"
+  },
+  "babelMacros": {
+    "twin": {
+      "preset": "emotion"
+    }
+  },
+  "packageManager": "yarn@3.2.1"
+}
